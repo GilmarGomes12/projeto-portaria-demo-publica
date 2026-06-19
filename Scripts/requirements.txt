@@ -1,0 +1,26 @@
+# Dependências necessárias para o sistema de detecção de placas
+# Sistema Python-Java para portaria automatizada
+# VERSÃO FINAL CORRIGIDA - Compatível com Python 3.12
+
+# Computer Vision - Processamento de imagens e vídeo
+opencv-python>=4.11.0
+
+# OCR (Optical Character Recognition) - Reconhecimento de texto
+pytesseract>=0.3.10
+
+# Manipulação de imagens - Suporte adicional para formatos de imagem
+Pillow>=10.0.0
+
+# Biblioteca matemática para arrays (dependência do OpenCV)
+numpy>=1.21.2
+
+# OBSERVAÇÕES:
+# - Use Python 3.12 (C:\Development\Tools\Python\python312\python.exe)
+# - Execute: configurar_python_final.bat para instalar tudo automaticamente
+# - Os módulos re, sys, time já vêm incluídos no Python padrão
+
+# INSTALAÇÃO MANUAL (se necessário):
+# pip install opencv-python>=4.11.0
+# pip install pytesseract>=0.3.10  
+# pip install Pillow>=10.0.0
+# pip install numpy>=1.21.2

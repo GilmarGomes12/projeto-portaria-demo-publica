@@ -1,0 +1,40 @@
+# Normalização de line endings
+* text=auto eol=lf
+
+# Arquivos Java - sempre LF
+*.java text eol=lf
+*.xml  text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.sql  text eol=lf
+
+# Scripts shell - sempre LF
+*.sh   text eol=lf
+
+# Scripts Windows - CRLF
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# Binários - não converter
+*.jar    binary
+*.class  binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.db     binary
+*.sqlite binary
+*.zip    binary
+*.exe    binary
+*.dmg    binary
+*.deb    binary
+*.rpm    binary
+*.msi    binary
+*.pyc    binary
+
+# Desabilitar rastreamento de permissões de arquivo (Windows)
+* !eol

@@ -1,0 +1,55 @@
+# Arquivos de build
+target/
+*.jar
+*.class
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+logs/
+__pycache__/
+*.pyc
+
+# Instaladores e distribuições
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
+*.app/
+*.zip
+Distribucao/MacOS/dist/
+Distribucao/MacOS/bin/*.jar
+Distribucao/Windows/bin/*.jar
+Distribucao/Windows/bin/*.zip
+Distribucao/Pacotes/*.zip
+Distribucao/v1.5.1/*.jar
+
+# Arquivos do sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Credenciais e configurações locais
+config.properties
+credentials.txt
+senha_inicial.txt
+sources.txt
+*.dotx
